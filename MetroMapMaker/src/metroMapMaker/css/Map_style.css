@@ -1,0 +1,107 @@
+/*
+    This style sheet stylizes the controls inside our
+    metroMapMaker JavaFX application. Note that controls
+    in the UI must have the same class as those below in 
+    order to be rendered using those properties.
+
+    @author Richard McKenna
+    @author Fanng Dai
+    @version 1.0
+*/
+
+.edit_toolbar_row{
+    -fx-spacing: 10;
+    -fx-background-color: #E1E2E1;
+    -fx-background-radius: 10.0;
+    -fx-border-radius: 5.0;
+    -fx-padding: 15;
+    -fx-spacing: 10;
+    -fx-border-width: 2px;
+    -fx-border-color : #848584;
+    -fx-effect: dropshadow(three-pass-box, rgba(.2,.2,.2,0.35), 4, 0, 0, 0);
+
+}
+
+.bordered_pane{
+    -fx-background-color: #E1E2E1;
+    -fx-padding: 10 10 10 10;
+    -fx-spacing: 10;
+
+}
+
+.button_MainUI{
+    -fx-background-color: #C8C8C8;
+    -fx-border-width : 1px;
+    -fx-border-color : #626262;
+    -fx-background-radius: 5 5 5 5;
+    -fx-border-radius: 5 5 5 5;
+    -fx-padding: 6 15 6 15;
+}
+
+.button_MainUI:hover{
+    -fx-background-color: #646564;
+}
+
+.labels{
+    -fx-font: 12 dekko;
+    -fx-font-weight:bold;
+    -fx-fill: #626262;
+}
+
+.color_picker{
+    /*-fx-padding: 5px;*/
+    -fx-background-color: transparent;
+    -fx-color-label-visible: false;
+    -fx-color-rect-width: 25;
+    -fx-color-rect-height: 25;
+}
+
+.edit_toolbar{
+    -fx-spacing: 10;
+    -fx-background-color: #A2A2A2;
+    -fx-background-radius: 5.0;
+    
+    -fx-padding: 15;
+    -fx-spacing: 10;
+}
+
+.scrollPane_mainUI{
+    -fx-background-color: #A2A2A2;
+    -fx-border-width: 2px;
+    -fx-border-color : #00608b;
+}
+
+.scroll-pane > .viewport{
+    -fx-background-color: transparent;
+}
+
+.recent_work_label{
+    -fx-font: 25 dekko;
+    -fx-font-weight:bold;
+    -fx-padding: 20 20 20 20;
+}
+
+.recent_work_vbox{
+    -fx-background-color: #89abc8;
+    -fx-border-width: 0 3px 0 0;
+    -fx-border-color: #00608b;
+    -fx-padding: 15;
+    -fx-vgap: 20;
+}
+
+.rightsizeV{
+    -fx-background-color: #00A0Ea;
+    -fx-padding: 150 50 200 50;
+}
+
+.button_Welcome{
+    -fx-background-color: #89abc8;
+    -fx-border-width : 1px;
+    -fx-border-color : #00608b;
+    -fx-border-radius: 5 5 5 5;
+    -fx-padding: 6 15 6 15;
+}
+
+.button_Welcome:hover{
+    -fx-background-color: #72889c;
+}

@@ -1,0 +1,1373 @@
+
+{
+    "name":"Cracked Egg City",
+    "map_size":{
+        "x":1600.0,
+        "y":860.0
+    },
+    "background_color":{
+        "red":1.0,
+        "green":1.0,
+        "blue":1.0,
+        "alpha":1.0
+    },
+    "lines":[
+        {
+            "name":"The Blue Line",
+            "circular":false,
+            "color":{
+                "red":0.0,
+                "green":0.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_names":[
+                "Blue 1",
+                "Blue Purple 2",
+                "Blue 3",
+                "Blue 5",
+                "Yellow Blue",
+                "Blue 7",
+                "Blue Purple 8",
+                "Blue 9"
+            ],
+            "line_thickness":5.0,
+            "name1x":985.0,
+            "name1y":185.0,
+            "name2x":985.0,
+            "name2y":785.0,
+            "text":{
+                "type":"TEXT",
+                "x":985.0,
+                "y":185.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"The Blue Line",
+                "fill_color":{
+                    "red":0.0,
+                    "green":0.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"The Yellow Line",
+            "circular":false,
+            "color":{
+                "red":0.75,
+                "green":0.75,
+                "blue":0.0,
+                "alpha":1.0
+            },
+            "station_names":[
+                "Yellow 1",
+                "Yellow Purple 2",
+                "Yellow 3",
+                "Yellow 5",
+                "Yellow Blue",
+                "Yellow 7",
+                "Yellow Purple 8",
+                "Yellow 9"
+            ],
+            "line_thickness":5.0,
+            "name1x":235.0,
+            "name1y":560.0,
+            "name2x":1435.0,
+            "name2y":560.0,
+            "text":{
+                "type":"TEXT",
+                "x":235.0,
+                "y":560.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"The Yellow Line",
+                "fill_color":{
+                    "red":0.75,
+                    "green":0.75,
+                    "blue":0.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"The Red Line",
+            "circular":false,
+            "color":{
+                "red":1.0,
+                "green":0.0,
+                "blue":0.0,
+                "alpha":1.0
+            },
+            "station_names":[
+                "Red 1",
+                "Red Purple 2",
+                "Red 3",
+                "Red Green",
+                "Red 5",
+                "Red 7",
+                "Red Purple 8",
+                "Red 9"
+            ],
+            "line_thickness":5.0,
+            "name1x":235.0,
+            "name1y":410.0,
+            "name2x":1435.0,
+            "name2y":410.0,
+            "text":{
+                "type":"TEXT",
+                "x":235.0,
+                "y":410.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"The Red Line",
+                "fill_color":{
+                    "red":1.0,
+                    "green":0.0,
+                    "blue":0.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"The Green Line",
+            "circular":false,
+            "color":{
+                "red":0.0,
+                "green":0.75,
+                "blue":0.0,
+                "alpha":1.0
+            },
+            "station_names":[
+                "Green 1",
+                "Green Purple 2",
+                "Green 3",
+                "Red Green",
+                "Green 5",
+                "Green 7",
+                "Green Purple 8",
+                "Green 9"
+            ],
+            "line_thickness":5.0,
+            "name1x":685.0,
+            "name1y":185.0,
+            "name2x":685.0,
+            "name2y":785.0,
+            "text":{
+                "type":"TEXT",
+                "x":685.0,
+                "y":185.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"The Green Line",
+                "fill_color":{
+                    "red":0.0,
+                    "green":0.75,
+                    "blue":0.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"The Purple Line",
+            "circular":true,
+            "color":{
+                "red":1.0,
+                "green":0.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_names":[
+                "Purple 1",
+                "Purple 2",
+                "Green Purple 2",
+                "Blue Purple 2",
+                "Purple 5",
+                "Purple 6",
+                "Red Purple 8",
+                "Yellow Purple 8",
+                "Purple 9",
+                "Purple 10",
+                "Blue Purple 8",
+                "Green Purple 8",
+                "Purple 13",
+                "Purple 14",
+                "Yellow Purple 2",
+                "Red Purple 2"
+            ],
+            "line_thickness":5.0,
+            "name1x":385.0,
+            "name1y":260.0,
+            "name2x":385.0,
+            "name2y":410.0,
+            "text":{
+                "type":"TEXT",
+                "x":385.0,
+                "y":260.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"The Purple Line",
+                "fill_color":{
+                    "red":1.0,
+                    "green":0.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        }
+    ],
+    "stations":[
+        {
+            "name":"Blue 1",
+            "x":975.0,
+            "y":175.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":925.0,
+                "y":175.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Blue 1",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Blue 3",
+            "x":975.0,
+            "y":325.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":925.0,
+                "y":325.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Blue 3",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Blue 5",
+            "x":975.0,
+            "y":475.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":925.0,
+                "y":475.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Blue 5",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Purple 9",
+            "x":1275.0,
+            "y":700.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":1225.0,
+                "y":700.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Purple 9",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Purple 5",
+            "x":1125.0,
+            "y":250.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":1075.0,
+                "y":250.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Purple 5",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Green Purple 2",
+            "x":675.0,
+            "y":250.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":625.0,
+                "y":250.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Green Purple 2",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Purple 6",
+            "x":1275.0,
+            "y":250.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":1225.0,
+                "y":250.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Purple 6",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Purple 1",
+            "x":375.0,
+            "y":250.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":325.0,
+                "y":250.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Purple 1",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Purple 2",
+            "x":525.0,
+            "y":250.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":475.0,
+                "y":250.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Purple 2",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Green Purple 8",
+            "x":675.0,
+            "y":700.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":625.0,
+                "y":700.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Green Purple 8",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Green 1",
+            "x":675.0,
+            "y":175.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":625.0,
+                "y":175.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Green 1",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Green 3",
+            "x":675.0,
+            "y":325.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":625.0,
+                "y":325.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Green 3",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Blue Purple 2",
+            "x":975.0,
+            "y":250.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":925.0,
+                "y":250.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Blue Purple 2",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Red Purple 8",
+            "x":1275.0,
+            "y":400.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":1225.0,
+                "y":400.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Red Purple 8",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Yellow Purple 8",
+            "x":1275.0,
+            "y":550.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":1225.0,
+                "y":550.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Yellow Purple 8",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Green 5",
+            "x":675.0,
+            "y":475.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":625.0,
+                "y":475.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Green 5",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Blue 7",
+            "x":975.0,
+            "y":625.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":925.0,
+                "y":625.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Blue 7",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Blue Purple 8",
+            "x":975.0,
+            "y":700.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":925.0,
+                "y":700.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Blue Purple 8",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Green 7",
+            "x":675.0,
+            "y":625.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":625.0,
+                "y":625.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Green 7",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Blue 9",
+            "x":975.0,
+            "y":775.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":925.0,
+                "y":775.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Blue 9",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Green 9",
+            "x":675.0,
+            "y":775.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":625.0,
+                "y":775.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Green 9",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Red Green",
+            "x":675.0,
+            "y":400.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":625.0,
+                "y":400.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Red Green",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Yellow Purple 2",
+            "x":375.0,
+            "y":550.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":325.0,
+                "y":550.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Yellow Purple 2",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Yellow 9",
+            "x":1425.0,
+            "y":550.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":1375.0,
+                "y":550.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Yellow 9",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Yellow 7",
+            "x":1125.0,
+            "y":550.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":1075.0,
+                "y":550.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Yellow 7",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Red Purple 2",
+            "x":375.0,
+            "y":400.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":325.0,
+                "y":400.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Red Purple 2",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Yellow 5",
+            "x":825.0,
+            "y":550.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":775.0,
+                "y":550.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Yellow 5",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Yellow Blue",
+            "x":975.0,
+            "y":550.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":925.0,
+                "y":550.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Yellow Blue",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Yellow 3",
+            "x":525.0,
+            "y":550.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":475.0,
+                "y":550.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Yellow 3",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Yellow 1",
+            "x":225.0,
+            "y":550.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":175.0,
+                "y":550.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Yellow 1",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Red 1",
+            "x":225.0,
+            "y":400.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":175.0,
+                "y":400.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Red 1",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Purple 10",
+            "x":1125.0,
+            "y":700.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":1075.0,
+                "y":700.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Purple 10",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Red 5",
+            "x":825.0,
+            "y":400.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":775.0,
+                "y":400.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Red 5",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Red 3",
+            "x":525.0,
+            "y":400.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":475.0,
+                "y":400.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Red 3",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Purple 14",
+            "x":375.0,
+            "y":700.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":325.0,
+                "y":700.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Purple 14",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Purple 13",
+            "x":525.0,
+            "y":700.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":475.0,
+                "y":700.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Purple 13",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Red 9",
+            "x":1425.0,
+            "y":400.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":1375.0,
+                "y":400.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Red 9",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        },
+        {
+            "name":"Red 7",
+            "x":1125.0,
+            "y":400.0,
+            "fill_color":{
+                "red":1.0,
+                "green":1.0,
+                "blue":1.0,
+                "alpha":1.0
+            },
+            "station_radii":10.0,
+            "label_position":0.0,
+            "label_rotate":0.0,
+            "text":{
+                "type":"TEXT",
+                "x":1075.0,
+                "y":400.0,
+                "family":"Times New Roman",
+                "size":12.0,
+                "bold":false,
+                "italics":false,
+                "text":"Red 7",
+                "fill_color":{
+                    "red":1.0,
+                    "green":1.0,
+                    "blue":1.0,
+                    "alpha":1.0
+                }
+            }
+        }
+    ],
+    "shapes":[
+    ]
+}

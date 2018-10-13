@@ -1,0 +1,61 @@
+package metroMapMaker;
+
+/**
+ * This class provides the properties that are needed to be loaded from
+ * language-dependent XML files.
+ * 
+ * @author Richard McKenna
+ * @author Fanng Dai
+ * @version 1.0
+ */
+
+public enum MapLanguageProperty {
+    PLUS_ICON,
+    MINUS_ICON,
+    EDIT_ICON,
+    // Row1
+    ADD_METROLINE_TOOLTIP,
+    REMOVE_METROLINE_TOOLTIP,
+    EDIT_METROLINE_TOOLTIP,
+    ADD_STATION_ICON,
+    ADD_STATIONTOLINE_TOOLTIP,
+    REMOVE_STATION_ICON,
+    REMOVE_STATIONFROMLINE_TOOLTIP,
+    SHOW_STATION_ICON,
+    SHOW_STATION_TOOLTIP,
+    // Row2
+    ADD_STATION_TOOLTIP,
+    REMOVE_STATION_TOOLTIP,
+    SNAP_ICON,
+    SNAP_STATION_TOOLTIP,
+    MOVE_ICON,
+    MOVE_LABEL_TOOLTIP,
+    ROTATE_ICON,
+    ROTATE_STATION_TOOLTIP,
+    // Row3
+    FIND_ROUTE_ICON,
+    FIND_ROUTE_TOOLTIP,
+    // Row4
+    IMAGE_BACKGROUND_ICON,
+    SET_IMAGE_BACKGROUND_TOOLTIP,
+    ADD_IMAGE_ICON,
+    ADD_IMAGE_TOOLTIP,
+    ADD_LABEL_ICON,
+    ADD_LABEL_TOOLTIP,
+    REMOVE_ELEMENT_ICON,
+    REMOVE_ELEMENT_TOOLTIP,
+    // Row5
+    BOLD_ICON,
+    BOLD_TOOLTIP,
+    ITALICS_ICON,
+    ITALICS_TOOLTIP,
+    // Row6
+    ZOOMIN_ICON,
+    ZOOMIN_TOOLTIP,
+    ZOOMOUT_ICON,
+    ZOOMOUT_TOOLTIP,
+    DECREASE_MAP_SIZE_ICON,
+    DECREASE_MAP_SIZE_TOOLTIP,
+    INCREASE_MAP_SIZE_ICON,
+    INCREASE_MAP_SIZE_TOOLTIP    
+}
